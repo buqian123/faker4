@@ -124,8 +124,8 @@ if ($.isNode()) {
         }
     }
     console.log(`内部互助优先,作者在最后`)
-    // const url = `https://raw.fa12312stgit.org/${Math.random() > 0.5 ? 'shufflewzc':'shufflewzc'}/updateTeam/main/shareCodes/fcwb.json`
-    const url = `https://raw.fastgi12312t.org/shufflewzc/updateTeam/main/shareCodes/fcwb.json`
+    // const url = `https://raw.fastgit.org/${Math.random() > 0.5 ? 'shufflewzc':'shufflewzc'}/updateTeam/main/shareCodes/fcwb.json`
+    const url = `https://raw.fastgit.org/shufflewzc/updateTeam/main/shareCodes/fcwb.json`
     const author = await getAuthorShareCode(url)
     if (author) {
         if (author.fcwbinviteCodeArr && author.fcwbinviterArr) {
